@@ -42,8 +42,8 @@ resource "azurerm_service_plan" "udacity" {
 resource "azurerm_windows_web_app" "udacity" {
   name                = "bradsudacitywebapp"
   resource_group_name = data.azurerm_resource_group.udacity.name
-  location            = data.azurerm_service_plan.udacity.location
-  service_plan_id     = data.azurerm_service_plan.udacity.id
+  location            = azurerm_service_plan.udacity.location
+  service_plan_id     = azurerm_service_plan.udacity.id
 
   site_config {}
 }
@@ -63,4 +63,8 @@ resource "azurerm_sql_server" "udacity" {
   version                      = "12.0"
   administrator_login          = "mradministrator"
   administrator_login_password = "thisIsDog11"
+
+  tags = {
+    environment = "production"
+  }
 }
