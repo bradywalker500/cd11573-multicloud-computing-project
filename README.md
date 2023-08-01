@@ -1,7 +1,9 @@
 # A Multi-Cloud Application
 
 ## Reason for choosing AWS DynamoDB
-Justify why your team chose AWS DynamoDB over Azure's counterpart. Limit your response to less than 150 words. Spend no more than 30 mins on this part. Add your explanation to your README.md file in your final repo submission.
+After a thorough research on AWS DynamoDB and Azure Cosmos DB, we found out that they are both highly scalable and globally available, and the difference in price is negligible with the settings required for our case scenario.
+
+However, AWS DynamoDB is the way to go because it will balance the ratio of services between Azure and AWS for our case scenario as shown on architecture diagram below which further increases the availability of the services we offer. Also, AWS DynamoDB is more flexible because it has free tier and flexible pricing options.
 
 ## Architecture Diagram
 
