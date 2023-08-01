@@ -40,7 +40,7 @@ resource "azurerm_service_plan" "udacity" {
 }
 
 resource "azurerm_windows_web_app" "udacity" {
-  name                = "bradsudacitywindowswebapp"
+  name                = "bradsudacitywebapp"
   resource_group_name = data.azurerm_resource_group.udacity.name
   location            = data.azurerm_service_plan.udacity.location
   service_plan_id     = data.azurerm_service_plan.udacity.id
