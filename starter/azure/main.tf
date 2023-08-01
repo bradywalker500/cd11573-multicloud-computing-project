@@ -16,8 +16,8 @@ resource "azurerm_container_group" "udacity" {
     cpu    = "0.5"
     memory = "1.5"
     environment_variables = {
-      "AWS_S3_BUCKET"       = "udacity-tscotto-aws-s3-bucket",
-      "AWS_DYNAMO_INSTANCE" = "udacity-tscotto-aws-dynamodb"
+      "AWS_S3_BUCKET"       = "udacity-brad-aws-s3-bucket",
+      "AWS_DYNAMO_INSTANCE" = "udacity-brad-aws-dynamodb"
     }
     ports {
       port     = 3000
