@@ -1,5 +1,28 @@
 # A Multi-Cloud Application
 
+## Reason for choosing AWS DynamoDB
+Justify why your team chose AWS DynamoDB over Azure's counterpart. Limit your response to less than 150 words. Spend no more than 30 mins on this part. Add your explanation to your README.md file in your final repo submission.
+
+## Architecture Diagram
+
+![Architecture Diagram](./screenshots/Architecture%20Diagram.png)
+
+## App running in Azure
+
+![App in Azure](./screenshots/App%20running%20in%20Azure.png)
+
+## App running in AWS
+
+![App in AWS](./screenshots/App%20running%20in%20AWS.png)
+
+## Terraform destroy in Azure
+
+![TD in Azure](./screenshots/Terraform%20destroy%20in%20Azure.png)
+
+## Terraform destroy in AWS
+
+![TD in AWS](./screenshots/Terraform%20destroy%20in%20AWS.png)
+
 ## Getting Started
 
 This folder contains the scaffolding Terraform code to deploy your project. Once you select the appropriate cloud providers, you will need to research specific Terraform modules for your select service and add those modules to the provided Terraform scaffolding. 
