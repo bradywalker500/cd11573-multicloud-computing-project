@@ -63,8 +63,4 @@ resource "azurerm_sql_server" "udacity" {
   version                      = "12.0"
   administrator_login          = "mradministrator"
   administrator_login_password = "thisIsDog11"
-
-  tags = {
-    environment = "production"
-  }
 }
